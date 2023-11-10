@@ -19,7 +19,7 @@ function Calculator(props) {
   return (
     <main id="container">
       <div id="screen">
-        <div className="input">{props.array}</div>
+        {/* <div className="input">{props.array}</div> */}
         <p>{props.array}</p>
         {/* <input
           onChange={toColl}
